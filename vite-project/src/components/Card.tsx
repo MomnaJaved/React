@@ -1,3 +1,4 @@
+/* eslint-disable react/react-in-jsx-scope */
 type CardProps = {
   title: string;
   description: string;

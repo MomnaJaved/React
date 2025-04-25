@@ -1,9 +1,11 @@
-import reactLogo from "./assets/react.svg";
-import viteLogo from "/vite.svg";
+/* eslint-disable react/jsx-no-target-blank */
+import React from "react";
 import "./App.css";
 import Navbar from "./components/Navbar";
 import Card from "./components/Card";
 import Counter from "./components/Counter";
+
+import viteLogo from "/vite.svg";
 
 function App() {
   return (
@@ -12,10 +14,6 @@ function App() {
         <a href="https://vite.dev" target="_blank">
           <img src={viteLogo} className="logo" alt="Vite logo" />
         </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-
         <Navbar />
       </header>
 
